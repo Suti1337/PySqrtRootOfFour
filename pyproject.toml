@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PySqrtRootOfFour"
+version = "1.0.0"
+description = "A highly optimized Python package for calculating the principal square root of four."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+    { name = "Methanol" }
+]
+keywords = [
+    "math",
+    "sqrt",
+    "square-root",
+    "four",
+    "optimization",
+    "python"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.urls]
+Homepage = "https://github.com/Suti1337/PySqrtRootOfFour"
+Repository = "https://github.com/Suti1337/PySqrtRootOfFour"
+Issues = "https://github.com/Suti1337/PySqrtRootOfFour/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
