@@ -21,8 +21,10 @@ pip install PySqrtRootOfFour
 
 # Usage
 
+```bash
 from pysqrtrootoffour import sqrt4
 
 result = sqrt4()
 
 print(result)
+```
